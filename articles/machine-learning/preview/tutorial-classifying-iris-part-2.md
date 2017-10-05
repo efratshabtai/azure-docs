@@ -8,7 +8,7 @@ manager: mwinkle
 ms.reviewer: garyericson, jasonwhowell, mldocs
 ms.service: machine-learning
 ms.workload: data-services
-ms.custom: mvc, tutorial
+ems.custom: mvc, tutorial
 ms.topic: hero-article
 ms.date: 09/25/2017
 ---
@@ -18,8 +18,7 @@ Azure Machine Learning services (preview) is an integrated, end-to-end data scie
 
 This tutorial is part two of a three part series. In this part of the tutorial, you use Azure Machine Learning services (preview) to learn how to:
 
-> [!div class="checklist"]
-> * Work in Azure Machine Learning Workbench
+> [!div class="checklist"]> * Work in Azure Machine Learning Workbench
 > * Open scripts and review code
 > * Execute scripts in a local environment
 > * Review run history
@@ -50,7 +49,7 @@ You should complete the first part of this tutorial series. Follow the [Prepare 
    - Loads the data prep package **iris.dprep** to create a [pandas DataFrame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html). 
 
         >[!NOTE]
-        >We are using the `iris.dprep` data prep package that comes with the sample project, which should be the same as teh `iris-1.dprep` file you built in part 1 of this tutorial.
+        >We are using the `iris.dprep` data prep package that comes with the sample project, which should be the same as the `iris-1.dprep` file you built in part 1 of this tutorial.
 
    - Adds random features to make the problem more difficult to solve. (Randomness is necessary because Iris is a small dataset that can be easily classified with near 100% accuracy.)
 
